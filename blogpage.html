@@ -12,28 +12,60 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <a href="./index.html"
-        ><img src="./img/Foodielandlogo..svg" width="110" height="30" alt=""
-      /></a>
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="">Recipes</a></li>
-        <li><a href="./blogpage.html">Blog</a></li>
-        <li><a href="./contactpage.html">Contact</a></li>
-        <li><a href="">About us</a></li>
-      </ul>
-      <ul>
-        <li><a href="">F</a></li>
-        <li><a href="">T</a></li>
-        <li><a href="">I</a></li>
-      </ul>
+      <div class="container header-container">
+        <a href="./index.html" class="logo"
+          >Foodieland<span class="logo-dot">.</span></a
+        >
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="/index.html">Home</a></li>
+          <li class="nav-list-item"><a href="">Recipes</a></li>
+          <li class="nav-list-item"><a href="./blogpage.html">Blog</a></li>
+          <li class="nav-list-item">
+            <a href="./contactpage.html">Contact</a>
+          </li>
+          <li class="nav-list-item"><a href="">About us</a></li>
+        </ul>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a href="">
+              <svg class="icon icon-social-media" width="18" height="20">
+                <use href="./img/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href=""
+              ><svg class="icon icon-social-media" width="23" height="18">
+                <use href="./img/symbol-defs.svg#icon-twitter"></use></svg
+            ></a>
+          </li>
+          <li class="social-list-item">
+            <a href="">
+              <svg class="icon icon-social-media" width="22" height="22">
+                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <section>
         <h1>Full Guide to Becoming a Professional Chef</h1>
+        <img
+          src="./img/user.jpg"
+          srcset="./img/user.jpg 1x, ./img/user2.jpg 2x"
+          alt="Author"
+        />
         <p>John Smith</p>
         <p>15 March 2022</p>
         <p>
@@ -41,7 +73,13 @@
           ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula
           sed velit a faucibus. In feugiat vestibulum velit vel pulvinar.
         </p>
-        <img src="" alt="" />
+        <img
+          src="./img/blogpage.webp"
+          srcset="./img/blogpage.webp 1x, ./img/blogpage2.webp 2x"
+          alt="Chef cooking"
+          width="1280"
+          height="600"
+        />
       </section>
       <section>
         <ul>
@@ -67,7 +105,13 @@
           </li>
           <li>
             <h4>Do you cook at home on your days off?</h4>
-            <img src="" alt="" />
+            <img
+              src="./img/womancooking.webp"
+              srcset="./img/womancooking.webp 1x, ./img/womancooking2.webp 2x"
+              alt="Woman cooking diner"
+              width="840"
+              height="400"
+            />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
               ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut
@@ -121,6 +165,13 @@
         <h2>Check out the delicious recipe</h2>
         <ul>
           <li>
+            <img
+              src="./img/fruit-salat.webp"
+              srcset="./img/fruit-salat.webp 1x, ./img/fruit-salat2.webp 2x"
+              alt="Tropical Fruit Salad"
+              width="290"
+              height="200"
+            />
             <p>Mixed Tropical Fruit Salad with Superfood Boosts</p>
             <ul>
               <li><p>30 Minutes</p></li>
@@ -128,6 +179,13 @@
             </ul>
           </li>
           <li>
+            <img
+              src="./img/meat.webp"
+              srcset="./img/meat.webp 1x, ./img/meat2.webp 2x"
+              alt="Beef Cheeseburger"
+              width="290"
+              height="200"
+            />
             <p>Big and Juicy Wagyu Beef Cheeseburger</p>
             <ul>
               <li><p>30 Minutes</p></li>
@@ -135,6 +193,13 @@
             </ul>
           </li>
           <li>
+            <img
+              src="./img/breakfast.webp"
+              srcset="./img/breakfast.webp 1x, ./img/breakfast2.webp 2x"
+              alt="Fried Rice"
+              width="290"
+              height="200"
+            />
             <p>Healthy Japanese Fried Rice with Asparagus</p>
             <ul>
               <li><p>30 Minutes</p></li>
@@ -142,6 +207,13 @@
             </ul>
           </li>
           <li>
+            <img
+              src="./img/kebab.webp"
+              srcset="./img/kebab.webp 1x, ./img/kebab2.webp 2x"
+              alt="Vegetarian Taco Meat"
+              width="290"
+              height="200"
+            />
             <p>Cauliflower Walnut Vegetarian Taco Meat</p>
             <ul>
               <li><p>30 Minutes</p></li>

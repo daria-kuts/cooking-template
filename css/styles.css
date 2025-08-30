@@ -1,8 +1,10 @@
 body {
-    font-family:
-     font-size:
-    line-height: 
-    color: 
+    font-family:"Inter",
+    sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,75;
+    color: rgba(0, 0, 0, 0.6);
     background-color: white;
 }
 
@@ -37,4 +39,51 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+section {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.container{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.svg-sprite {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.header-container {
+    display: flex;
+justify-content: space-between;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.logo {
+    font-family: "Lobster",
+        sans-serif;;
+        font-weight: 400;
+        font-size: 24px;
+        color: #000;
+}
+
+.logo-dot {
+    color: #ff7426;}
+
+.nav-list {
+    display: flex;
+    gap: 60px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: #000;
+    align-self: center;
+}
+
+.social-list { 
+    display: flex;
+    gap: 40px;
+    align-self: center;
 }
