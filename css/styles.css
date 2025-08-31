@@ -3,7 +3,7 @@ body {
     sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,75;
+    line-height: 1.75;
     color: rgba(0, 0, 0, 0.6);
     background-color: white;
 }
@@ -101,19 +101,88 @@ padding-bottom: 40px;
     border-radius: 50px;
 }
 .hero-content{
-    align-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.hero-banner{
+    border-radius: 0 50px 50px 0;
 }
 
-.hero-title {}
+.hero-title {
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: -0.04em;
+    color: #000;
+    margin-bottom: 24px;
+    margin-top: 127px;
+    line-height: 1;
+}
 
-.hero-subtitle {}
+.hero-subtitle {
+margin-bottom: 30px;
+width: 520px;
+}
 
-.container-time {}
+.time-recipe{
+    display: flex;
+    gap: 16px;
+}
+.time-recipe-item{
+    display: flex;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    padding: 8px 16px;
+    margin-bottom: 104px;
+}
+.author{
+    display: flex;
+    gap: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
 
-.icon {}
+.author-foto{
+    border-radius: 100%;
+}
+.author-name :first-child{
+font-weight: 700;
+letter-spacing: -0.02em;
+color: #000;
+}
+.author-name :last-child{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+}
 
-.icon-clock {}
+.author-container{
+    display: flex;
+}
+.hero-btn{
+ display: flex;
+gap: 15px;
+ border-radius: 16px;
+background: #000;
+align-items: center;
+padding: 18px 36px;
+margin-left: 157px;
 
-.container-recipe {}
+}
+.hero-btn-link{
+  font-size: 14px;
+letter-spacing: -0.02em;
+color: #fff;  
+}
 
-.icon-knife {}
+
+.categories-title {}
+
+.categories-btn {}
+
+.categories-list {
+    display: flex;
+}
+
+.categories-list-item {}
