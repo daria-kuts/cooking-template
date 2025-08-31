@@ -63,25 +63,47 @@
     </header>
     <main>
       <section class="hero-section">
-        <h1>Spicy delicious chicken wings</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqut enim ad minim
-        </p>
-        <p>30 Minutes</p>
-        <p>Chicken</p>
-        <ul>
-          <li><p>John Smith</p></li>
-          <li><p>15 March 2022</p></li>
-          <a href="">View Recipes</a>
-        </ul>
-        <img
-          src="./img/hero-section.webp"
-          srcset="./img/hero-section.webp 1x, ./img/hero-section2.webp 2x"
-          alt="Chicken wings"
-          width="660"
-          height="640"
-        />
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">Spicy delicious chicken wings</h1>
+            <p class="hero-subtitle">
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
+              minim
+            </p>
+            <div class="container-time">
+              <svg class="icon icon-clock" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-Timer"></use>
+              </svg>
+              <p>30 Minutes</p>
+            </div>
+            <div class="container-recipe">
+              <svg class="icon icon-knife" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-ForkKnife"></use>
+              </svg>
+              <p>Chicken</p>
+            </div>
+            <ul class="">
+              <img
+                src="./img/user.jpg"
+                srcset="./img/user.jpg 1x, ./img/user2.jpg 2x"
+                alt="Author"
+                width="50"
+                height="50"
+              />
+              <li><p>John Smith</p></li>
+              <li><p>15 March 2022</p></li>
+              <a href="">View Recipes</a>
+            </ul>
+          </div>
+          <img
+            src="./img/hero-section.webp"
+            srcset="./img/hero-section.webp 1x, ./img/hero-section2.webp 2x"
+            alt="Chicken wings"
+            width="660px"
+            height="640px"
+          />
+        </div>
       </section>
       <section>
         <h2>Categories</h2>

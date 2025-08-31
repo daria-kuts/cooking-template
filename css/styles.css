@@ -47,6 +47,7 @@ section {
 .container{
     padding-left: 80px;
     padding-right: 80px;
+    max-width: 1440px;
 }
 .svg-sprite {
     position: absolute;
@@ -87,3 +88,32 @@ padding-bottom: 40px;
     gap: 40px;
     align-self: center;
 }
+.hero-section { 
+    margin-top: 40px;
+}
+
+.hero-container {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 0;
+    display: flex;
+    background-color: #e7fafe;
+    border-radius: 50px;
+}
+.hero-content{
+    align-content: center;
+}
+
+.hero-title {}
+
+.hero-subtitle {}
+
+.container-time {}
+
+.icon {}
+
+.icon-clock {}
+
+.container-recipe {}
+
+.icon-knife {}
