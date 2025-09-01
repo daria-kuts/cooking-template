@@ -176,13 +176,49 @@ letter-spacing: -0.02em;
 color: #fff;  
 }
 
+.container-cat{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.categories-title {
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.04em;
+    color: #000;
+}
 
-.categories-title {}
-
-.categories-btn {}
+.categories-btn {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #000;
+    background: #e7fafe;
+    border-radius: 16px;
+        width: 200px;
+        height: 60px;
+}
 
 .categories-list {
     display: flex;
+    gap: 40px;
 }
 
-.categories-list-item {}
+.categories-list-item {
+justify-content: center;
+}
+.cat-list-item-link{
+    font-weight: 600;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        text-justify: center;
+        color: #000;
+        background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+        border-radius: 30px;
+        padding: 30px 40px;}
+    
+.cat-list-item-img{
+    margin-bottom: 50px;
+    justify-self: center;
+    
+}
+    
