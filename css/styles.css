@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     font-family:"Inter",
     sans-serif;
@@ -48,6 +51,7 @@ section {
     padding-left: 80px;
     padding-right: 80px;
     max-width: 1440px;
+    margin: 0 auto;
 }
 .svg-sprite {
     position: absolute;
@@ -257,6 +261,9 @@ transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     }
     /*Reciepes*/
+    .section-recipes{
+        margin-bottom: 143px;
+    }
         .recipes-title {
         font-weight: 600;
         font-size: 48px;
@@ -281,19 +288,195 @@ transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
     
         .recipe-card {
+            box-shadow: none;
             border-radius: 30px;
             width: 400px;
             background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);
+            padding: 16px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+        }
+    .recipe-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
         }
     
-        .recipe-card-img {}
+    .recipe-card-img {
+    border-radius: 20px;
+    margin-bottom: 24px;
+     }
     
-        .recipe-card-title {}
+    .recipe-card-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: -0.04em;
+    color: #000;
+    margin-bottom: 24px;
+          
     
-        .time-cat {}
+    }
+    .container-title-card{
+    margin-right: 8px;
+    margin-left: 8px;
+    }
+    .time-cat {
+    margin-bottom: 16px;
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+        }
+       
+    .time-cat-item {
+    display: flex;
+    gap: 4px;
+        }
+
+    .icon-timer{
+     margin-left: 8px;
+    }
+  /*Learn more*/
+  
+  .section-learn-more {
+    margin-top: 143px;
+  }
+
+.container-learn-more{
+    display: flex;
+}
+.container-learn-more-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 526px;
+    margin-right: 44px;
+}
+  .learn-more-title {
+font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.04em;
+    color: #000;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+
+  .learn-more-subtitle {
+    width: 508px;
+    margin-bottom: 72px;
+  }
+
+  .learn-more-btn {
+    width: 180px;
+    height: 60px;
+    border-radius: 16px;
+    background: #000;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #fff;
+  }
+
+/*Gallery*/
+.section-gallery{
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #e7f9fd 100%);  
+  padding-bottom: 80px;
+}
+
+.gallery-title {
+    margin-bottom: 24px;
+font-weight: 600;
+font-size: 48px;
+letter-spacing: -0.04em;
+text-align: center;
+color: #000;
+}
+
+.gallery-subtitle {
+ text-align: center;
+ margin-bottom: 80px;
+}
+
+.gallery-list {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.gallery-btn {
+    display: flex;
+    border-radius: 16px;
+    width: 229px;
+    height: 60px;
+    background-color: #000;
+    gap: 17px;
+padding: 22px 32px;
+align-items: center;
+justify-self: center;
+transition: background-color 0.2s ease;
+}
+
+.gallery-btn-link {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    transition: color 0.2s ease;
+}
+
+.icon-inst {
+    fill: #fff;
+    transition: fill 0.2s ease;
+}
+
+/*Delicious gallery*/
+.container-delicious-title {
+    display: flex;
+}
+
+.delicious-title {
+    width: 507px;
+    font-weight: 600;
+        font-size: 48px;
+        letter-spacing: -0.04em;
+        color: #000;
+        line-height: 1;
+        margin-right: 153px;
+        margin-bottom: 80px;
+}
+
+.delicious-subtitle {
+    width: 620px;
+
+}
+
+.delicious-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
     
-        .time-cat-item {}
-    
-        .icon {}
-    
-        .adds-img {}
+}
+
+.delicious-list-item {
+    width: calc((100% - 120px) / 4);
+    transition: transform 0.2s ease;
+}
+.delicious-list-item:hover{
+    transform: translateY(-5px);
+}
+
+.delicious-img {
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.delicious-list-item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    letter-spacing: -0.04em;
+    color: #000;
+}
+/*Section inbox*/
+.section-inbox{
+    background-image: ;
+}
